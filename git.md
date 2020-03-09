@@ -23,7 +23,7 @@ git commit -v                                           # Commit staged change(s
 git push                                                # Push local commit(s) to local branch
 git push REMOTE_NAME REMOTE_BRANCH                      # Push local commit(s) to REMOTE_BRANCH
 git push REMOTE_NAME +REMOTE_BRANCH                     # Push local commit(s) to REMOTE_BRANCH and forcing a git history rewrite if applicable
-git push --set-upstream-to REMOTE_NAME LOCAL_BRANCH    # Push local commit(s) to LOCAL_BRANCH, creating the LOCAL_BRANCH under REMOTE_NAME in the process
+git push --set-upstream-to REMOTE_NAME LOCAL_BRANCH     # Push local commit(s) to LOCAL_BRANCH, creating the LOCAL_BRANCH under REMOTE_NAME in the process
   -or-
 git push -u REMOTE_NAME LOCAL_BRANCH
 git push REMOTE_NAME :REMOTE_BRANCH                     # Delete remote branch BRANCH_NAME
