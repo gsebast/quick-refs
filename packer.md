@@ -1,4 +1,5 @@
 # Packer
+
 ```bash
 packer validate PACKER_JSON                             # Validate PACKER_JSON file
 PACKER_LOG=1 packer validate PACKER_JSON                # Debug validation of PACKER_JSON file
